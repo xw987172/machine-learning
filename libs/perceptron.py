@@ -1,10 +1,11 @@
-#coding:utf8
+# coding: utf8
 import os
 import sys
 reload(sys)
 sys.setdefaultencoding("utf8")
 from pickle import *
 import numpy as np
+
 
 class perceptron(object):
     def __init__(self,eta=0.01,n_iter =10):
@@ -16,7 +17,7 @@ class perceptron(object):
         self.eta = eta
         self.n_iter =n_iter
 
-    def fit(self,X,y):
+    def fit(self, X,y):
         '''
         
         :param X:[array_like] 
