@@ -1,4 +1,5 @@
-# coding = utf8
+#/usr/local/bin/python3
+# -*- coding: utf-8 -*-
 import numpy as np
 import pandas as pd
 # 加载boston 房屋数据
